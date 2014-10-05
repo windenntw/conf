@@ -9,12 +9,11 @@ if $OS == "osx"
   set fuoptions=maxvert,maxhorz      " use whole screen in fullscreen mode
   "autocmd VimLeave * macaction terminate:
 else
-  set guifont=DejaVu\ Sans\ Mono:h12
-  set guioptions-=m                  " no menu
+  set guifont=DejaVu\ Sans\ Mono\ 14
 endif
 
 "" Visual feedback for insert mode.
 " guibg for InsertLeave is specific to jellybeans color scheme.
 " TODO: solve this problem for terminal too
-au InsertEnter * hi Normal guibg=#000000
-au InsertLeave * hi Normal guibg=#151515
+" au InsertEnter * hi Normal guibg=#000000
+" au InsertLeave * hi Normal guibg=#151515
