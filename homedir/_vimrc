@@ -45,7 +45,6 @@ set display=lastline            " display as much as possible from last line in 
 set keymodel+=startsel          " shift+special key = selection
 set laststatus=2                " always show status line
 set number                      " display current line number
-silent! set relativenumber      " use relative line numbers for lines other than current
 set ruler                       " display coords in bottom right corner
 set scrolloff=14                " leave this amount of lines while scrolling up/down
 set shortmess+=mrwI             " shorter indicators (like [RO]) in messages, no :intro on start
