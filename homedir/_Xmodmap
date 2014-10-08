@@ -1,0 +1,9 @@
+! WINDEN: Remap keyboard.
+! Caps Lock is Left Control
+clear Lock
+keycode 66 = Control_L
+add Control = Control_L
+
+! Logitech Marble Trackball - https://help.ubuntu.com/community/Logitech_Marblemouse_USB
+! Done in ~/bin/trackball.sh
+!pointer = 1 8 3 4 5 6 7 9 2
