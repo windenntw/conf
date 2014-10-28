@@ -1,5 +1,5 @@
 # WINDEN: Run a permanent vim session.
 vi () {
-  command gvim --servername PISTOLIN --remote-silent "$@" || \
-  command gvim "$@";
+  command vim --servername PISTOLIN --remote-silent "$@" || \
+  command vim "$@";
 }
