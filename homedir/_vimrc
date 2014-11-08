@@ -66,6 +66,7 @@ endif
 autocmd BufWritePre * :%s/\s\+$//e
 " different tabs for Python code
 autocmd BufRead *.py set tabstop=4 shiftwidth=4 textwidth=80
+autocmd BufRead *.v  set tabstop=32 shiftwidth=2 textwidth=80
 " disable certain backup-related settings that make crontab complain
 au FileType crontab set nobackup nowritebackup
 
