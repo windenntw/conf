@@ -4,7 +4,7 @@ source ~/.vim/bundles.vim
 "" general settings
 set autoread                    " auto-reread file if modified outside and not in vim
 set autowrite                   " auto-write file before certain operations
-set backup                      " leave a backup file behind on save
+"set backup                      " leave a backup file behind on save
 set encoding=utf-8              " utf-8 is default encoding
 set foldmethod=syntax           " use syntax rules for folding
 set formatoptions+=21           " use indent from second line of a paragraph, don't break line after single letter word
